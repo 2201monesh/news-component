@@ -17,3 +17,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-card-outer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.main-card-inner{
+  height: 350px;
+  width: 450px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.heading{
+  display: flex;
+  padding: 20px;
+  font-size: medium;
+}
+
+.icon{
+  padding-top: 2px;
+  padding-right: 5px;
+}
