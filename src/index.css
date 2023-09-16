@@ -24,19 +24,19 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: whitesmoke;
+  background-color: #fffcec;
 }
 
 .main-card-inner{
   height: 450px;
   width: 550px;
-  background-color: #F8F8FF;
+  background-color: #f1f9ec;
   border-radius: 8px;
 }
 
 .heading{
   display: flex;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   font-size: medium;
 }
 
@@ -46,7 +46,6 @@ code {
 }
 
 .news-capsule{
-  border: 1px solid lightgrey;
   display: inline-block;
   padding: 4px 14px;
   border-radius: 15px;
@@ -57,6 +56,12 @@ code {
 
 .news-capsule:hover{
   cursor: pointer;
+  border: 1px solid grey;
+}
+
+.news-capsule a{
+  text-decoration: none;
+  color: black;
 }
 
 .news-card{
