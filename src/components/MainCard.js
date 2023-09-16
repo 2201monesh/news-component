@@ -1,5 +1,6 @@
 import React from 'react';
 import { HiTrendingUp } from 'react-icons/hi';
+import NewsSection from './NewsSection';
 
 function MainCard() {
   return (
@@ -10,6 +11,8 @@ function MainCard() {
       <span className='icon'><HiTrendingUp /></span>
       <p className='heading-text'>Trending searches</p>
     </div>
+
+    <NewsSection />
       
     </div>
     </div>
