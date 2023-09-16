@@ -28,9 +28,9 @@ code {
 }
 
 .main-card-inner{
-  height: 350px;
-  width: 450px;
-  background-color: white;
+  height: 450px;
+  width: 550px;
+  background-color: #F8F8FF;
   border-radius: 8px;
 }
 
@@ -45,6 +45,20 @@ code {
   padding-right: 5px;
 }
 
+.news-capsule{
+  border: 1px solid lightgrey;
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 15px;
+  font-size: medium;
+  margin: 5px;
+  background-color: white;
+}
+
+.news-capsule:hover{
+  cursor: pointer;
+}
+
 .news-card{
-  
+  padding: 20px;
 }

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import NewsCapsule from './NewsCapsule';
 
 function NewsSection() {
 
@@ -15,14 +16,9 @@ function NewsSection() {
     getNews();
   }, []);
 
-  const maxLength = 15;
-
-  const capsule = news.map((item) => <p>{item.title.substr(0, maxLength)}</p>)
-
   return (
     <div className='news-card'>
-      News Section
-      {capsule}
+      <NewsCapsule news={news} />
     </div>
   )
 }
